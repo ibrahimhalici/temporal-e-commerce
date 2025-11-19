@@ -1,0 +1,24 @@
+GET localhost:8080/api/order/all
+
+###
+POST localhost:8080/api/order
+Content-Type: application/json
+
+{
+  "id": 1,
+  "user_id": 5656,
+  "products": [
+    {
+      "id": 1903,
+      "name": "bjk_forma",
+      "unit_price": 3200,
+      "quantity": 2
+    },
+    {
+      "id": 2021,
+      "name": "sampiyonluk_tisort",
+      "unit_price": 84,
+      "quantity": 1
+    }
+  ]
+}
